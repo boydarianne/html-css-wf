@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(246, 245, 243);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#container {
+    background-color: rgb(64, 63, 61);
+    width: 1250px;
+    height: 100px;
+    margin: 0 auto;
+    border: 5px solid;
+    border-color: rgb(64, 63, 61);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    /* flex content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#container div {
+    width: 200px;
+    height: 70px;
+    color: grey;
+    font-size: large;
+}
+
+#second-container {
+    background-color: black;
+    height: 450px;
+    width: 1195px;
+    margin: auto;
+    margin-left:6%;
+    margin-top: 5%;
+font-size: 200px;
+text-align: center;
+padding-top: 15%;
+}
+
+#second-container div {
+    color: grey;
+}
+
+#third-container {
+    background-color: rgb(249, 248, 248);
+    width: 1280px;
+    height: 500px;
+    /* flex content */
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#fourth-container {
+    width: 1000px;
+    height: 400px;
+    margin-top: 0;
+    margin: 7.5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#fourth-container div{
+    height: 400px;
+    /* width: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+overflow: scroll ;
+}
+
+
+
+#third-container div{
+    color: grey;
+    width: 300px;
+    height: 375px;
+    margin-top: 5%;
+    margin-left: auto;
+justify-content: space-between;
+}
+
+/* #text-container p {
+    width: 300px;
+    height: 400px;
+    text-align: left;
+    background-color: blue;
+} */
+
+/* #lorem-container {
+width: 350px;
+height: 400px;
+background-color: aquamarine;
+} */
+
+#final-container {
+    width: 1500px;
+    height: 200px;
+    background-color: grey;
+}
